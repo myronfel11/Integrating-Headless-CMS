@@ -49,6 +49,16 @@ const Navbar = () => {
             Resources
           </NavLink>
         </li>
+        <li className="p-4">
+          <NavLink
+            to="/products"
+            className={({ isActive }) =>
+              isActive ? "text-emerald-400" : "text-white"
+            }
+          >
+            Products
+          </NavLink>
+        </li>
       </ul>
       <div onClick={handleNav} className="block md:hidden">
         {!nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
@@ -94,6 +104,17 @@ const Navbar = () => {
               onClick={closeNav}
             >
               Resources
+            </NavLink>
+          </li>
+          <li className="p-4 border-b border-gray-600">
+            <NavLink
+              to="/products"
+              className={({ isActive }) =>
+                isActive ? "text-emerald-400" : "text-white"
+              }
+              onClick={closeNav}
+            >
+              Products
             </NavLink>
           </li>
         </ul>
