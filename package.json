@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@sanity/client": "^6.28.1",
+    "@sanity/eventsource": "^5.0.2",
     "@tailwindcss/vite": "^4.0.0",
     "localforage": "^1.10.0",
     "match-sorter": "^8.0.0",
