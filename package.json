@@ -10,7 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@sanity/client": "^6.28.1",
+    "@sanity/block-content-to-react": "^3.0.0",
+    "@sanity/client": "^6.28.2",
     "@sanity/eventsource": "^5.0.2",
     "@tailwindcss/vite": "^4.0.0",
     "localforage": "^1.10.0",

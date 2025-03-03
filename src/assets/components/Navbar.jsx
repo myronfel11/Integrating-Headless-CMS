@@ -51,12 +51,12 @@ const Navbar = () => {
         </li>
         <li className="p-4">
           <NavLink
-            to="/products"
+            to="/events"
             className={({ isActive }) =>
               isActive ? "text-emerald-400" : "text-white"
             }
           >
-            Products
+            Events
           </NavLink>
         </li>
       </ul>
@@ -108,13 +108,13 @@ const Navbar = () => {
           </li>
           <li className="p-4 border-b border-gray-600">
             <NavLink
-              to="/products"
+              to="/events"
               className={({ isActive }) =>
                 isActive ? "text-emerald-400" : "text-white"
               }
               onClick={closeNav}
             >
-              Products
+              Events
             </NavLink>
           </li>
         </ul>
