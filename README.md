@@ -29,9 +29,15 @@ cd studio-integrating-a-headless--cmds"
 
 11. now im getting a 400 bad request it looks like a syntax error to me, so to fix this the first step im gonna take is make my products.jsx page actually connect to my schema that i created a few days ago. My event types name is "event" so im gonna change the post to event along with some more changes to match the fields. and see if I still get a syntax error.
 
-12. That worked so my next step is to try displaying the data onto the webpage. I grabbed the code from the sanity documentation that was meant for Nextjs and threw them into chat to convert them into react. for this step it wasnt as easy as just throw it into chat to convert. I used <h2 className=" text-emerald-400">You are viewing {events.length} events</h2> to test out if it would break whenever i did something new. It would tell me an error occured if the events.length would stop showing 1. once I stopped getting errors I converted the page.tsx file from the sanity docs to work with my events.jsx file
+12. That worked so my next step is to try displaying the data onto the webpage. I grabbed the code from the sanity documentation that was meant for Nextjs and threw them into chat to convert them into react. for this step it wasnt as easy as just throw it into chat to convert. I used... <h2 className=" text-emerald-400">You are viewing {events.length} events</h2> to test out if it would break whenever i did something new. It would tell me an error occured if the events.length would stop showing 1. once I stopped getting errors I converted the page.tsx file from the sanity docs to work with my events.jsx file
 
 13. I ran npm run deploy and it is now up and ready!
 
+*HOW TO RUN*
 
+1. npm run dev
+
+2. click on Events in the navbar
+
+3. the schema made in Sanity will pop up
 
